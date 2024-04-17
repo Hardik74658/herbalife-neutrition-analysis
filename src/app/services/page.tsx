@@ -73,7 +73,7 @@ function page() {
                             </CardItem>
                             <CardItem translateZ="100" className="w-full mt-4">
                             <Image
-                                src="/images/worker-boss-1.png"
+                                src="/images/worker-boss-4.png"
                                 height="1000"
                                 width="1000"
                                 className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
