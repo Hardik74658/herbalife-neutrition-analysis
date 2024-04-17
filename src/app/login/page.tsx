@@ -12,7 +12,7 @@ import { GridImages2 } from "@/components/GridImages2";
 import Link from "next/link";
 
 
-export function page() {
+function page() {
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     console.log("Form submitted");
