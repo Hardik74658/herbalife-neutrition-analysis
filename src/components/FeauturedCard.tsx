@@ -24,7 +24,7 @@ function FeauturedCard() {
                                 className="object-contain rounded-md border-gray-400 border-2"
                                 />
                                 <p className="text-lg sm:text-xl text-black mt-4 mb-2 dark:text-neutral-200">Abc Def</p>
-                                <p className="text-sm text-neutral-600 dark:text-neutral-400 flex-grow italic">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, ipsam soluta? Nam iusto quisquam harum!"</p>
+                                <p className="text-sm text-neutral-600 dark:text-neutral-400 flex-grow italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, ipsam soluta? Nam iusto quisquam harum!</p>
                             </div>        
                     </BackgroundGradient>
                 </div>
@@ -39,7 +39,7 @@ function FeauturedCard() {
                                 className="object-contain rounded-md border-gray-400 border-2"
                                 />
                                 <p className="text-lg sm:text-xl text-black mt-4 mb-2 dark:text-neutral-200">Abc Def</p>
-                                <p className="text-sm text-neutral-600 dark:text-neutral-400 flex-grow italic">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, ipsam soluta? Nam iusto quisquam harum!"</p>
+                                <p className="text-sm text-neutral-600 dark:text-neutral-400 flex-grow italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, ipsam soluta? Nam iusto quisquam harum!</p>
                             </div>        
                     </BackgroundGradient>
                 </div>
@@ -54,7 +54,7 @@ function FeauturedCard() {
                                 className="object-contain rounded-md border-gray-400 border-2"
                                 />
                                 <p className="text-lg sm:text-xl text-black mt-4 mb-2 dark:text-neutral-200">Abc Def</p>
-                                <p className="text-sm text-neutral-600 dark:text-neutral-400 flex-grow italic">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, ipsam soluta? Nam iusto quisquam harum!"</p>
+                                <p className="text-sm text-neutral-600 dark:text-neutral-400 flex-grow italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, ipsam soluta? Nam iusto quisquam harum!</p>
                             </div>        
                     </BackgroundGradient>
                 </div>

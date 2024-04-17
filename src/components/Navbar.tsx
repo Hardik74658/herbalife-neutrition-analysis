@@ -3,7 +3,6 @@ import React, { useEffect, useState } from "react";
 import { HoveredLink, Menu, MenuItem, ProductItem } from "./ui/navbar-menu";
 import { cn } from "@/utils/cn";
 import Link from "next/link";
-import { Html } from "next/document";
 import { useTheme } from "next-themes";
 
 function Navbar({ className }: { className?: string }) {
