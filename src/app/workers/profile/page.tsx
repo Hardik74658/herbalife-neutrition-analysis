@@ -4,8 +4,8 @@ import React from 'react'
 
 function page() {
 
-  const image= "/images/Wallpaper-HUGE IF TRUE-Cleo.jpg";
-  const name ="Cleo Abram"
+  const image= "/images/worker-boss-2.png";
+  const name ="Jhon Doe"
   return (
     <HeroHighlight className="w-full h-screen">
           
