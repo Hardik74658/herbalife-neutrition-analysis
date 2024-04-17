@@ -92,7 +92,7 @@ const config: Config = {
       },
     },
   },
-  plugins: [ addVariablesForColors,addSvgPatterns,function ({ matchUtilities, theme }: any) {
+  plugins: [require("daisyui"), addVariablesForColors,addSvgPatterns,function ({ matchUtilities, theme }: any) {
     matchUtilities(
       {
         "bg-dot-thick": (value: any) => ({

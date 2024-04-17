@@ -5,7 +5,6 @@ import React from "react";
 import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
 import Link from "next/link";
 import { HeroHighlight, Highlight } from "@/components/ui/hero-highlight";
-import { motion } from "framer-motion";
 
 
 const workersData = [
@@ -53,8 +52,8 @@ function page() {
         <HeroHighlight className="h-full" containerClassName="h-full py-12 pt-36 ">
             
                 <h1 className="text-lg md:text-7xl text-center font-sans font-bold mb-8 text-white">
-                    <Highlight className="text-black dark:text-white text-lg md:text-7xl text-center font-sans font-bold mb-8">
-                        All Workers ({workersData.length})
+                    <Highlight className="text-black px-8 dark:text-white text-lg md:text-7xl text-center font-sans font-bold mb-8">
+                         Workers 
                     </Highlight>
                 </h1>  
                 <div className="flex flex-wrap justify-center gap-8">
@@ -93,6 +92,7 @@ function page() {
                                         </div>
                                     
                                 </CardItem>
+                                <Link href={"/workers/profile"}>
                                 <CardItem
                                     translateZ={20}
                                     as="button"
@@ -100,6 +100,7 @@ function page() {
                                 >
                                     Hire →
                                 </CardItem>
+                                </Link>
                                 </div>
                             </CardBody>
                         </CardContainer>

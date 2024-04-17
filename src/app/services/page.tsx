@@ -48,9 +48,9 @@ function page() {
       
     //   <div className="min-h-screen bg-black py-12 pt-36">
         <HeroHighlight className="h-full" containerClassName="h-full py-12 pt-36 ">
-            <h1 className="text-lg md:text-7xl text-center font-sans font-bold mb-8 text-white">
-                <Highlight className="text-black dark:text-white text-lg md:text-7xl text-center font-sans font-bold mb-8">
-                    All Services ({servicesData.length})
+            <h1 className="text-lg md:text-7xl text-center font-sans font-bold mb-8 ">
+                <Highlight className="text-black px-8 dark:text-white text-lg md:text-7xl text-center font-sans font-bold mb-8">
+                    Services 
                 </Highlight>
             </h1>  
             
@@ -86,17 +86,20 @@ function page() {
                                 as={Link}
                                 href="https://twitter.com/mannupaaji"
                                 target="__blank"
-                                className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
+                                className="px-4 py-2 rounded-xl text-xs font-normal text-black dark:text-white"
                             >
-                                Try now →
+                                <p className="bg-blue-100 text-blue-800 text-sm font-semibold inline-flex items-center p-1.5 rounded dark:bg-blue-200 dark:text-blue-800"> 5 Workers </p>
+                                
                             </CardItem>
+                            <Link href={"/workers"}>
                             <CardItem
                                 translateZ={20}
                                 as="button"
                                 className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
                             >
-                                Sign up
+                                See Workers ->
                             </CardItem>
+                            </Link>
                             </div>
                         </CardBody>
                     </CardContainer>

@@ -20,8 +20,6 @@ export function page() {
   };
   return (
     <HeroHighlight className="h-full flex flex-row items-center justify-start w-full px-32 gap-12" containerClassName="h-full py-12 pt-36 ">
-    <GridImages2/>
-
     <div className="max-w-md w-full mx-auto rounded-none md:rounded-2xl p-4 md:p-8  shadow-input bg-white dark:bg-black">
       <h2 className="font-bold text-xl text-neutral-800 dark:text-neutral-200">
         Welcome to Neighbourly Connect
@@ -29,16 +27,6 @@ export function page() {
       
 
       <form className="my-8" onSubmit={handleSubmit}>
-        <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-2 mb-4">
-          <LabelInputContainer>
-            <Label htmlFor="firstname">First name</Label>
-            <Input id="firstname" placeholder="Tyler" type="text" />
-          </LabelInputContainer>
-          <LabelInputContainer>
-            <Label htmlFor="lastname">Last name</Label>
-            <Input id="lastname" placeholder="Durden" type="text" />
-          </LabelInputContainer>
-        </div>
         <LabelInputContainer className="mb-4">
           <Label htmlFor="email">Email Address</Label>
           <Input id="email" placeholder="projectmayhem@fc.com" type="email" />
@@ -46,14 +34,6 @@ export function page() {
         <LabelInputContainer className="mb-4">
           <Label htmlFor="password">Password</Label>
           <Input id="password" placeholder="••••••••" type="password" />
-        </LabelInputContainer>
-        <LabelInputContainer className="mb-8">
-          <Label htmlFor="confirmpwd">Confirm Password</Label>
-          <Input
-            id="confirmpwd"
-            placeholder="••••••••"
-            type="password"
-          />
         </LabelInputContainer>
         <LabelInputContainer className="mb-4">
           <Label htmlFor="isWorker">User Type</Label>
@@ -70,27 +50,20 @@ export function page() {
           <input type="radio" name="isWorker" id="isWorker" value="true"/>&nbsp;&nbsp;&nbsp;Worker
           </div>
         </LabelInputContainer>
-        <LabelInputContainer className="mb-4">
-          <Label htmlFor="email">Pin Code</Label>
-          <Input id="email" placeholder="123456" type="number" />
-        </LabelInputContainer>
-      
         <button
           className="bg-gradient-to-br relative group/btn from-black dark:from-zinc-900 dark:to-zinc-900 to-neutral-600 block dark:bg-zinc-800 w-full text-white rounded-md h-10 font-medium shadow-[0px_1px_0px_0px_#ffffff40_inset,0px_-1px_0px_0px_#ffffff40_inset] dark:shadow-[0px_1px_0px_0px_var(--zinc-800)_inset,0px_-1px_0px_0px_var(--zinc-800)_inset]"
           type="submit"
         >
-          Sign up &rarr;
+          Login &rarr;
           <BottomGradient />
         </button>
 
-
         <div className="bg-gradient-to-r from-transparent via-neutral-300 dark:via-neutral-700 to-transparent my-8 h-[1px] w-full" />
 
-        
         <div className="text-center dark:text-white text-black my-8">
-          Already a User? 
-          <Link href="/login" className=" text-blue-600 mx-2">
-            Login
+           New To Neighbourly Connect? 
+          <Link href="/signup" className=" text-blue-600 mx-2">
+            Signup
           </Link>
         </div>
 
@@ -119,6 +92,7 @@ export function page() {
         </div>
       </form>
     </div>
+    <GridImages2/>
     </HeroHighlight>
     
   );
