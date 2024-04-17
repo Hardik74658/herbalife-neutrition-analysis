@@ -19,7 +19,7 @@ const teamMembers = [
         id: 3,
         name: "Hardik Songara",
         designation: "Founder & CEO",
-        image: "/images/Hardik(2).jpg"
+        image: "/images/Hardik (2).jpg"
     },
     {
         id: 4,
