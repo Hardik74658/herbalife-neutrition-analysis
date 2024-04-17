@@ -6,7 +6,6 @@ import { cn } from "@/utils/cn";
 import {
   IconBrandGithub,
   IconBrandGoogle,
-  IconBrandOnlyfans,
 } from "@tabler/icons-react";
 import { HeroHighlight, Highlight } from "@/components/ui/hero-highlight";
 import { GridImages2 } from "@/components/GridImages2";
