@@ -81,11 +81,11 @@ function Page() {
           {/* <div className="dark:bg-zinc-800 p-2 rounded-md border-white flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-32 mb-4">
            */}<div className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-32 mb-4 w-full border-none bg-gray-50 dark:bg-zinc-800 text-black dark:text-white shadow-input rounded-md px-3 py-2 text-sm">
               <label>
-                <input type="radio" name="isWorker" value="false" {...register("isWorker", { required: true })} />
+                <input type="radio"  value="false" {...register("isWorker", { required: true })} />
                 &nbsp;&nbsp;&nbsp;User
               </label>
               <label>
-                <input type="radio" name="isWorker" value="true" {...register("isWorker", { required: true })} />
+                <input type="radio"  value="true" {...register("isWorker", { required: true })} />
                 &nbsp;&nbsp;&nbsp;Worker
               </label>
             </div>
@@ -160,7 +160,7 @@ const LabelInputContainer = ({
     <div className={cn("flex flex-col space-y-2 w-full", className)}>
       {children}
     </div>
-  );s
+  );
 };
 
 export default Page
