@@ -3,6 +3,9 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import { ThemeProvider } from "next-themes";
+import AuthProvider from "@/context/AuthProvider"
+import { ToastContainer } from "react-toastify";
+import 'react-toastify/dist/ReactToastify.css';
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,6 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={process.env.THEME!}>
+      <AuthProvider>
       <body className={inter.className}>
       <ThemeProvider
             attribute="class"
@@ -27,8 +31,11 @@ export default function RootLayout({
           <Navbar /> 
         </div>
         {children}
+        <ToastContainer />
       </ThemeProvider>
       </body>
-    </html>
+
+      </AuthProvider>
+   </html>
   );
 }
