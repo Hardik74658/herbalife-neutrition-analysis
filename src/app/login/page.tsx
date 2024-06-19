@@ -25,7 +25,7 @@ type FormData = {
 };
 
 
-function page() {
+function Page() {
   const {
     register,
     handleSubmit,
@@ -160,7 +160,7 @@ const LabelInputContainer = ({
     <div className={cn("flex flex-col space-y-2 w-full", className)}>
       {children}
     </div>
-  );
+  );s
 };
 
-export default page
+export default Page
